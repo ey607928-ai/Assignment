@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+input {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+#allTab {
+    border-radius: 3px;
+    border: 0px;
+    padding: 8px 15px;
+}
+
+#favoritesTab {
+    border-radius: 3px;
+    border: 0px;
+    padding: 8px 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #555;
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #f1f1d1;
+}
+
+.hidden {
+    display: none;
+}
+
+.tab-btn.active, #allTab.active, #favoritesTab.active {
+    background: #2c3e50;
+    color: #fff;
+    border-color: #2c3e50;
+
+.fav-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
